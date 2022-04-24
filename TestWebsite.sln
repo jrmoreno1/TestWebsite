@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestWebsite", "http://localhost/TestWebsite", "{E23A8F2D-C058-4A6C-A3AE-B472113EEE72}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/TestWebsite"
+		Debug.AspNetCompiler.PhysicalPath = "TestWebsite.Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebsite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TestWebsite"
+		Release.AspNetCompiler.PhysicalPath = "TestWebsite.Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebsite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TestWebsite.Website\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23A8F2D-C058-4A6C-A3AE-B472113EEE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A8F2D-C058-4A6C-A3AE-B472113EEE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23A8F2D-C058-4A6C-A3AE-B472113EEE72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E23A8F2D-C058-4A6C-A3AE-B472113EEE72}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A8F2D-C058-4A6C-A3AE-B472113EEE72}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E23A8F2D-C058-4A6C-A3AE-B472113EEE72}.Release|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAC29FDE-AD3D-4585-9EE4-B5C9A1B647DF}
+	EndGlobalSection
+EndGlobal
