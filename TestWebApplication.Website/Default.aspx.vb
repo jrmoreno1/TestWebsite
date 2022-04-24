@@ -1,5 +1,4 @@
 Option Strict Off
-Imports System.Data
 
 Partial Class _Default
     Inherits System.Web.UI.Page
@@ -8,22 +7,24 @@ Partial Class _Default
         Dim d As Decimal = 9
         Dim s As String = d
 
-        ltHello.Text = "Hello, this is a test webSITE, not a web application"
+        ltHello.Text = "Hello, this is a test webAPPLICATION, not a web site"
     End Sub
 
     ''' <remarks>
-    ''' my VSIX for missing as clause gives warning in this website
+    ''' my VSIX for missing as clause gives warning in this web application
     ''' </remarks>
-    Public Function WebSiteMissingAs()
-        Return 3
+    Public Function WebApplicationMissingAs()
+        Return ""
     End Function
 
     ''' <remarks>
-    ''' Codefix provider works in this website 
+    ''' Codefix provider works in this web application
     ''' </remarks>
     Public Sub TestDr()
         Dim dr As IDataReader = Nothing
         Dim s As String = dr("test")
     End Sub
 
+
 End Class
+
